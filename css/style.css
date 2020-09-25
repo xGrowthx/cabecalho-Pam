@@ -1,13 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 .img-header{
-    background-image: url(../img/background-header.png);
+    background-image: url(../img/background-gamer.jpg);
+    background-position: top;
+
 }
 
 .font-header{
-    font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  background: rgb(8,8,100);
+  background: radial-gradient(circle, rgba(8,8,100,1) 50%, rgba(1,164,198,1) 100%); 
 }
 
-#h1 > p {
-  color: aqua;
+.font-paragraph{
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-lead{
+  font-family: 'Raleway', sans-serif;
+}
+
+.mt-n5 {
+  margin-top: -3.5 rem
+}
+
+.lead-colorgradient{
+  background: rgb(8,8,100);
+  background: radial-gradient(circle, rgba(8,8,100,1) 0%, rgba(1,164,198,1) 90%); 
+}
+
+nav > div#my-nav > ul > li > a.nav-link{
+  border-radius: 2.5px;
+  padding: 8px 20px 8px 20px;
+}
+
+div.principal > div > p{
+  background: rgb(128, 128, 128);
+  border-radius: 4px;
+  padding: 0px 20px 40px 20px;
 }
